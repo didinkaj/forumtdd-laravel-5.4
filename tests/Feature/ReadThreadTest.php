@@ -28,7 +28,7 @@ class ReadThreadTest extends TestCase
     public function a_user_can_view_all_threads()
     {
 
-        $this->get('/threads')
+        $this->get($this->thread->path())
         ->assertSee($this->thread->title);
     }
     /** @test */
@@ -36,7 +36,7 @@ class ReadThreadTest extends TestCase
     {
 
 
-        $this->get('/threads/' . $this->thread->id)
+        $this->get($this->thread->path())
             ->assertSee($this->thread->title);
 
     }
@@ -46,7 +46,7 @@ class ReadThreadTest extends TestCase
         $reply = factory('App\Reply')
             ->create(['thread_id' => $this->thread->id]);
 
-        $this->get('/threads/'.$this->thread->id)
+        $this->get($this->thread->path())
             ->assertSee($reply->body);
 
 

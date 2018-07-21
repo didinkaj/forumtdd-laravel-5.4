@@ -7,7 +7,11 @@ use Illuminate\Database\Eloquent\Model;
 class Reply extends Model
 {
     //
-    function owner(){
+    protected $guarded = [];
+
+    public function owner()
+    {
         return $this->belongsTo(User::class,'user_id');
-}
+    }
+
 }
