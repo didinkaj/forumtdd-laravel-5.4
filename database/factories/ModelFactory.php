@@ -12,6 +12,8 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
+
+/*  factoryto create threads */
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
 
