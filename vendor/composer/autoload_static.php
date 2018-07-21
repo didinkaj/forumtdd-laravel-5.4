@@ -18,6 +18,7 @@ class ComposerStaticInit92a99b03773b5b03eaec56895ee63c61
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'f0906e6318348a765ffb6eb24e0d0938' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Foundation/helpers.php',
         '58571171fd5812e6e447dce228f52f4d' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Support/helpers.php',
+        '6601b0afd52bfb958f4bc80953865ae8' => __DIR__ . '/../..' . '/tests/utilities/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -3326,8 +3327,9 @@ class ComposerStaticInit92a99b03773b5b03eaec56895ee63c61
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php70\\Php70' => __DIR__ . '/..' . '/symfony/polyfill-php70/Php70.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
+        'Tests\\Feature\\CreateThreadsTest' => __DIR__ . '/../..' . '/tests/Feature/CreateThreadsTest.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
-        'Tests\\Feature\\ParticipateInForum' => __DIR__ . '/../..',
+        'Tests\\Feature\\ParticipateInForumTest' => __DIR__ . '/../..' . '/tests/Feature/ParticipateInForumTest.php',
         'Tests\\Feature\\ReadThreadTest' => __DIR__ . '/../..' . '/tests/Feature/ReadThreadTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
