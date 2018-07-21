@@ -17,16 +17,16 @@ class ParticipateInForumTest extends TestCase
     {
         parent::setUp();
 
-        $this->thread = factory('App\Thread')->create();
+        $this->thread = create('App\Thread');
 
     }
     /** @test*/
     function unauthenticated_users_may_not_add_replies(){
         $this->expectException('Illuminate\Auth\AuthenticationException');
 
-        $thread =  factory('App\Thread')->create();
+        $thread =  create('App\Thread');
 
-        $reply = factory('App\Reply')->create();
+        $reply = create('App\Reply');
 
         $this->post( 'threads/1/replies', $reply->toArray());
     }
@@ -34,7 +34,7 @@ class ParticipateInForumTest extends TestCase
     /** @test */
     function an_authenticated_user_may_participate_in_forum_threads()
     {
-        $this->be($user = factory('App\User')->create());
+        $this->signIn();
 
         $reply = factory('App\Reply')->make();
 
