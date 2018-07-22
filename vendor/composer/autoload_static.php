@@ -283,6 +283,7 @@ class ComposerStaticInit92a99b03773b5b03eaec56895ee63c61
     );
 
     public static $classMap = array (
+        'App\\Channel' => __DIR__ . '/../..' . '/app/Channel.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -315,6 +316,7 @@ class ComposerStaticInit92a99b03773b5b03eaec56895ee63c61
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
         'Carbon\\Laravel\\ServiceProvider' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
+        'CreateChannelsTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_21_184536_create_channels_table.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateRepliesTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_19_175457_create_replies_table.php',
         'CreateThreadsTable' => __DIR__ . '/../..' . '/database/migrations/2018_07_19_175055_create_threads_table.php',
@@ -3327,6 +3329,7 @@ class ComposerStaticInit92a99b03773b5b03eaec56895ee63c61
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php70\\Php70' => __DIR__ . '/..' . '/symfony/polyfill-php70/Php70.php',
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
+        'Tests\\Feature\\BooTest' => __DIR__ . '/../..' . '/tests/Feature/BooTest.php',
         'Tests\\Feature\\CreateThreadsTest' => __DIR__ . '/../..' . '/tests/Feature/CreateThreadsTest.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\Feature\\ParticipateInForumTest' => __DIR__ . '/../..' . '/tests/Feature/ParticipateInForumTest.php',

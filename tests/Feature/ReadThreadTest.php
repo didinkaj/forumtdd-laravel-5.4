@@ -46,7 +46,7 @@ class ReadThreadTest extends TestCase
         $reply = factory('App\Reply')
             ->create(['thread_id' => $this->thread->id]);
 
-        $this->get('/threads/'.$this->thread->id)
+        $this->get('/threads/some-channel/'.$this->thread->id)
             ->assertSee($reply->body);
 
 

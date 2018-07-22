@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'App\\Channel' => $baseDir . '/app/Channel.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -38,6 +39,7 @@ return array(
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
     'Carbon\\Laravel\\ServiceProvider' => $vendorDir . '/nesbot/carbon/src/Carbon/Laravel/ServiceProvider.php',
     'Carbon\\Translator' => $vendorDir . '/nesbot/carbon/src/Carbon/Translator.php',
+    'CreateChannelsTable' => $baseDir . '/database/migrations/2018_07_21_184536_create_channels_table.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateRepliesTable' => $baseDir . '/database/migrations/2018_07_19_175457_create_replies_table.php',
     'CreateThreadsTable' => $baseDir . '/database/migrations/2018_07_19_175055_create_threads_table.php',
@@ -3050,6 +3052,7 @@ return array(
     'Symfony\\Polyfill\\Mbstring\\Mbstring' => $vendorDir . '/symfony/polyfill-mbstring/Mbstring.php',
     'Symfony\\Polyfill\\Php70\\Php70' => $vendorDir . '/symfony/polyfill-php70/Php70.php',
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
+    'Tests\\Feature\\BooTest' => $baseDir . '/tests/Feature/BooTest.php',
     'Tests\\Feature\\CreateThreadsTest' => $baseDir . '/tests/Feature/CreateThreadsTest.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\Feature\\ParticipateInForumTest' => $baseDir . '/tests/Feature/ParticipateInForumTest.php',
