@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Channel;
 use App\Thread;
 
 use Illuminate\Http\Request;
@@ -10,21 +11,28 @@ class ThreadsController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth')->except(['index','show']);
+        $this->middleware('auth')->except(['index', 'show']);
     }
-
+    
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index($channelSlug = null)
     {
         //
-        $threads = Thread::latest()->get();
-        return view('threads.index',compact('threads'));
+        if ($channelSlug) {
+            $channelId = Channel::where('slug', $channelSlug)->first()->id;
+            
+            $threads = Thread::where('channel_id', $channelId)->latest()->get();
+        } else {
+            $threads = Thread::latest()->get();
+        }
+        
+        return view('threads.index', compact('threads'));
     }
-
+    
     /**
      * Show the form for creating a new resource.
      *
@@ -35,73 +43,73 @@ class ThreadsController extends Controller
         //
         return view('threads.create');
     }
-
+    
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param  \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
     {
         //
-        $this->validate($request,[
+        $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
             'channel_id' => 'required|exists:channels,id'
         ]);
         $thread = Thread::create([
-            'user_id'=>auth()->id(),
-            'channel_id'=> request('channel_id'),
-            'title'=>request('title'),
-            'body'=>request('body')
-
+            'user_id' => auth()->id(),
+            'channel_id' => request('channel_id'),
+            'title' => request('title'),
+            'body' => request('body')
+        
         ]);
-
+        
         return redirect($thread->path());
     }
-
+    
     /**
      * Display the specified resource.
      *
      * @param $channeId
-     * @param  int  $id
+     * @param  int $id
      * @param \App\Thread $thread
      * @return \Illuminate\Http\Response
      */
     public function show($channeId, Thread $thread)
     {
         //
-       Return view('threads.show',compact('thread'));
+        Return view('threads.show', compact('thread'));
     }
-
+    
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function edit($id)
     {
         //
     }
-
+    
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \Illuminate\Http\Request $request
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
         //
     }
-
+    
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  int $id
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)

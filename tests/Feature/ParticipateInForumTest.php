@@ -21,7 +21,8 @@ class ParticipateInForumTest extends TestCase
 
     }
     /** @test*/
-    function unauthenticated_users_may_not_add_replies(){
+    function unauthenticated_users_may_not_add_replies()
+    {
         $this->withExceptionHandling()
             ->post( 'threads/some-channel/1/replies', [])
             ->assertRedirect('/login');

@@ -18,7 +18,6 @@ class CreateThreadsTest extends TestCase
      */
 
     /** @test */
-
     public function guest_may_not_create_threads()
     {
 
