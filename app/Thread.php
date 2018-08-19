@@ -14,7 +14,7 @@ class Thread extends Model
         parent::boot();
         
         static::addGlobalScope('replyCount',function ($builder){
-            $builder->withCount('replies');
+            $builder->withCount('replies')
         });
     }
     
@@ -24,7 +24,7 @@ class Thread extends Model
 
     public function replies()
     {
-        return $this->hasMany(Reply::class)->withCount();
+        return $this->hasMany(Reply::class);
     }
     public function getReplyCountAttribute()
     {
