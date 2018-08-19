@@ -5,7 +5,7 @@ namespace App\Filters;
 use App\User;
 use Illuminate\Http\Request;
 
-class ThreadFilters extends filters
+class ThreadFilters extends Filters
 {
     protected $filters = ['by','popular'];
     
