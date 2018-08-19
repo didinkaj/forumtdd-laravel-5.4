@@ -28,10 +28,10 @@ class ReadThreadTest extends TestCase
     public function a_user_can_view_all_threads()
     {
 
-        $this->get($this->thread->path())
+        $this->get('/threads')
         ->assertSee($this->thread->title);
     }
-    /** @test */
+   
     public function a_user_can_read_single_thread()
     {
 
@@ -64,7 +64,7 @@ class ReadThreadTest extends TestCase
     /** @test */
     function a_user_can_filter_threads_according_to_a_channel()
     {
-        $channel = create("App\Channel");
+        $channel = create('App\Channel');
 
         $threadInChannel = create('App\Thread', ['channel_id' => $channel->id]);
 
@@ -73,6 +73,25 @@ class ReadThreadTest extends TestCase
         $this->get('/threads/'. $channel->slug)
             ->assertSee($threadInChannel->title)
             ->assertDontSee($threadNotInChannel->title);
+    }
+    
+    /** @test*/
+    function a_user_can_filter_threads_by_popularity(){
+        //
+        $threadWithTwoReplies = create('App\Thread');
+        
+        create('App\Reply',['thread_id' => $threadWithTwoReplies->id ], 2);
+    
+        $threadWithThreeReplies = create('App\Thread');
+    
+        create('App\Reply',['thread_id' => $threadWithThreeReplies->id ], 3);
+    
+        $threadWithNoReplies = $this->thread;
+        
+        $response = $this->getJson('threads?popular=1')->json();
+        
+       // $response->assertSee($threadWithThreadReplies->title);
+        $this->assertEquals([3,2,0], array_column($response,'replies_count'));
     }
     
 }
