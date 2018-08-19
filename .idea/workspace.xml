@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb811ba-23eb-4bd9-a417-d4b1520890df" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Filters/Filters.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Thread.php" afterPath="$PROJECT_DIR$/app/Thread.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -60,8 +59,8 @@
       <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="343">
+              <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
               <folding>
                 <element signature="e#40#70#0#PHP" expanded="true" />
               </folding>
@@ -69,11 +68,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="294">
+              <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -137,14 +146,14 @@
         <option value="$PROJECT_DIR$/tests/Feature/ExampleTest.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ReadThreadTest.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Filters/TreadFilters.php" />
-        <option value="$PROJECT_DIR$/app/Thread.php" />
         <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
         <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
+        <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
       </list>
     </option>
@@ -241,6 +250,13 @@
             <path>
               <item name="forumtdd54" type="b2602c69:ProjectViewProjectNode" />
               <item name="forumtdd54" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="threads" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd54" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd54" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -266,7 +282,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;th&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/routes/web.php&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/tests/Feature/ReadThreadTest.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
+    <property name="SearchEverywhereHistoryKey" value="threa&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;th&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/routes/web.php&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/tests/Feature/ReadThreadTest.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -299,12 +315,12 @@
       <workItem from="1533974131292" duration="9645000" />
       <workItem from="1534386986818" duration="6111000" />
       <workItem from="1534587984420" duration="386000" />
-      <workItem from="1534593576150" duration="12126000" />
+      <workItem from="1534593576150" duration="14897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33752000" />
+    <option name="totallyTimeSpent" value="36523000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="718" height="900" extended-state="6" />
@@ -622,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="874">
@@ -744,14 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -770,10 +770,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="343">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="32" selection-end-line="83" selection-end-column="32" />
           <folding>
             <element signature="e#40#70#0#PHP" expanded="true" />
           </folding>
