@@ -79,7 +79,7 @@ class ThreadsController extends Controller
      * @param \App\Thread $thread
      * @return \Illuminate\Http\Response
      */
-    public function show($channeId, Thread $thread)
+    public function show($channel, Thread $thread)
     {
         //
         Return view('threads.show', [
@@ -117,9 +117,18 @@ class ThreadsController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($channel, Thread $thread)
     {
         //
+        $thread->delete();
+        
+        if(request()->wantsJson()){
+            return response([], 204);
+        }
+        
+        return redirect('/threads');
+        
+        
     }
     
     /**
