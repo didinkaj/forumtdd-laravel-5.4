@@ -22,10 +22,9 @@ class FavoritesController extends Controller
         return back();
     }
     
-    /**
-     * @param Reply $reply
-     */
-   
-    
+    public function destroy(Reply $reply)
+    {
+        $reply->unfavorite();
+    }
     
 }
