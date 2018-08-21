@@ -3,9 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Activity;
 
 class Thread extends Model
 {
+    use RecordsActivity;
 
     protected $guarded = [];
     //
@@ -22,10 +24,6 @@ class Thread extends Model
         static::deleting(function ($thread){
             $thread->replies()->delete();
         });
-    
-//        static::addGlobalScope('creator',function ($builder){
-//            $builder->with('creator');
-//        });
     }
     
     public function path(){
