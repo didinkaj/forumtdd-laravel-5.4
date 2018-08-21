@@ -2,161 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb811ba-23eb-4bd9-a417-d4b1520890df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Thread.php" afterPath="$PROJECT_DIR$/app/Thread.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/reply.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/composer.json" afterPath="$PROJECT_DIR$/vendor/psy/psysh/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/AbstractClassPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/CalledClassPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/FinalClassPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/FunctionReturnInWriteContextPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ImplicitReturnPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/LegacyEmptyPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/LegacyEmptyPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ListPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ListPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/LoopContextPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/NamespaceAwarePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/NamespacePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/PassableByReferencePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/RequirePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/RequirePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/StrictTypesPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/UseStatementPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidClassNamePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidConstantPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidConstantPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidConstructorPass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/CodeCleaner/ValidFunctionNamePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/BufferCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/BufferCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ClearCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ClearCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/DocCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/DocCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/DumpCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/DumpCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/EditCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/EditCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HelpCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HelpCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HistoryCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HistoryCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ClassConstantEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ClassConstantEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ClassEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ClassEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ConstantEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/ConstantEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/FunctionEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/FunctionEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/GlobalVariableEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/GlobalVariableEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/InterfaceEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/InterfaceEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/MethodEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/MethodEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/PropertyEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/PropertyEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/TraitEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/TraitEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/VariableEnumerator.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand/VariableEnumerator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ParseCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ParseCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ReflectingCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ReflectingCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ShowCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ShowCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/SudoCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/SudoCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ThrowUpCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ThrowUpCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand/TimeitVisitor.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand/TimeitVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TraceCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TraceCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/WhereamiCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/WhereamiCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/WtfCommand.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/WtfCommand.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ConfigPaths.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ConfigPaths.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Configuration.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Configuration.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Context.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Context.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/BreakException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/BreakException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ErrorException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/FatalErrorException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/FatalErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ParseErrorException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ParseErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ThrowUpException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/ThrowUpException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/TypeErrorException.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Exception/TypeErrorException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionClosure.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionClosure.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/ProcessForker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/RunkitReloader.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/RunkitReloader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoopClosure.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoopClosure.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/CodeFormatter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/CodeFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/DocblockFormatter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/DocblockFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/SignatureFormatter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Formatter/SignatureFormatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Input/FilterOptions.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Input/FilterOptions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Input/ShellInput.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Input/ShellInput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Output/ProcOutputPager.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Output/ProcOutputPager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Output/ShellOutput.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Output/ShellOutput.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ParserFactory.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ParserFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/GNUReadline.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/GNUReadline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/HoaConsole.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/HoaConsole.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/Libedit.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/Libedit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/Transient.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Readline/Transient.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionClassConstant.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionClassConstant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionConstant.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionConstant.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionConstant_.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionConstant_.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionLanguageConstruct.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionLanguageConstruct.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionLanguageConstructParameter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Reflection/ReflectionLanguageConstructParameter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Shell.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Shell.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Sudo.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Sudo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Sudo/SudoVisitor.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Sudo/SudoVisitor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/AutoCompleter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/AutoCompleter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/AbstractDefaultParametersMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/AbstractDefaultParametersMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/AbstractMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/AbstractMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassAttributesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassAttributesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassMethodDefaultParametersMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassMethodDefaultParametersMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassMethodsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassMethodsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassNamesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ClassNamesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/CommandsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/CommandsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ConstantsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ConstantsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionDefaultParametersMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionDefaultParametersMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/FunctionsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/KeywordsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/KeywordsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/MongoClientMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/MongoClientMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/MongoDatabaseMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/MongoDatabaseMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectAttributesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectAttributesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodDefaultParametersMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodDefaultParametersMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodsMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/ObjectMethodsMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/VariablesMatcher.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/TabCompletion/Matcher/VariablesMatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Docblock.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Docblock.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Json.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Json.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Mirror.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Mirror.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Str.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Util/Str.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/VarDumper/Dumper.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/VarDumper/Dumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/VarDumper/Presenter.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/VarDumper/Presenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/VersionUpdater/GitHubChecker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/VersionUpdater/IntervalChecker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/functions.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/ClassWithSecrets.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/ClassWithSecrets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/FinalClassPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/FinalClassPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/FunctionReturnInWriteContextPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/FunctionReturnInWriteContextPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/LegacyEmptyPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/LegacyEmptyPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ListPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ListPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/NamespacePassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/NamespacePassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/NoReturnValueTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/NoReturnValueTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/RequirePassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/RequirePassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/StrictTypesPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/StrictTypesPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/UseStatementPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/UseStatementPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ValidClassNamePassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ValidClassNamePassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ValidConstructorPassTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleaner/ValidConstructorPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleanerTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/CodeCleanerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/ConfigurationTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/ConfigurationTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/ContextTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/ContextTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/ErrorExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/ErrorExceptionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/ThrowUpExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/ThrowUpExceptionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/TypeErrorExceptionTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Exception/TypeErrorExceptionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Formatter/CodeFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Formatter/CodeFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Formatter/SignatureFormatterTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Formatter/SignatureFormatterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/ParserTestCase.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/ParserTestCase.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Readline/GNUReadlineTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Readline/GNUReadlineTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Readline/LibeditTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Readline/LibeditTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Reflection/ReflectionConstantTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Reflection/ReflectionConstantTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/ShellTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/ShellTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/SudoTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/SudoTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/TabCompletion/AutoCompleterTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/TabCompletion/AutoCompleterTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/DocblockTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/DocblockTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/MirrorTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/MirrorTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/StrTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/Util/StrTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/VersionUpdater/GitHubCheckerTest.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/VersionUpdater/GitHubCheckerTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/psy/psysh/test/fixtures/config.php" afterPath="$PROJECT_DIR$/vendor/psy/psysh/test/fixtures/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfileControllers.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfileControllers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Reply.php" afterPath="$PROJECT_DIR$/app/Reply.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/User.php" afterPath="$PROJECT_DIR$/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -167,55 +20,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
+      <file leaf-file-name="ActivityTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/ActivityTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="131" column="44" lean-forward="false" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+            <state relative-caret-position="231">
+              <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
               <folding>
-                <element signature="e#40#70#0#PHP" expanded="true" />
+                <element signature="e#33#50#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <file leaf-file-name="RecordsActivity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            <state relative-caret-position="943">
+              <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FavoritesTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/FavoritesTest.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profiles/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1035">
-              <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FavoritesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php">
+      <file leaf-file-name="created_thread.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding>
-                <element signature="e#40#57#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reply.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
+      <file leaf-file-name="created_reply.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="138">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -224,29 +75,31 @@
       <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Reply.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+            <state relative-caret-position="499">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+      <file leaf-file-name="activity.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <file leaf-file-name="ProfileControllers.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileControllers.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-              <folding />
+            <state relative-caret-position="111">
+              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <element signature="e#40#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -254,18 +107,18 @@
       <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/User.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+            <state relative-caret-position="518">
+              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_08_19_130156_create_favorites_table.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_19_130156_create_favorites_table.php">
+      <file leaf-file-name="Activity.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Activity.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+            <state relative-caret-position="276">
+              <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -298,23 +151,40 @@
         <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
         <option value="$PROJECT_DIR$/app/Filters/TreadFilters.php" />
         <option value="$PROJECT_DIR$/app/Filters/Filters.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
         <option value="$PROJECT_DIR$/tests/utilities/functions.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ReadThreadTest.php" />
-        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
         <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Favorite.php" />
         <option value="$PROJECT_DIR$/database/migrations/2018_08_19_130156_create_favorites_table.php" />
         <option value="$PROJECT_DIR$/tests/Feature/FavoritesTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/FavoritesController.php" />
-        <option value="$PROJECT_DIR$/app/Reply.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/app/Favoritable.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ProfileTest.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_07_19_175457_create_replies_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/index.blade.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Policies/ThreadPolicy.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_08_20_210131_create_activities_table.php" />
+        <option value="$PROJECT_DIR$/app/Thread.php" />
+        <option value="$PROJECT_DIR$/app/Activity.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/ActivityTest.php" />
+        <option value="$PROJECT_DIR$/app/RecordsActivity.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Reply.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProfileControllers.php" />
       </list>
     </option>
   </component>
@@ -331,8 +201,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="718" />
-    <option name="height" value="900" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -349,7 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -379,7 +250,24 @@
               <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
               <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Policies" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Providers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="migrations" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
@@ -391,6 +279,21 @@
               <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="profiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="profiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="activities" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
@@ -399,11 +302,22 @@
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="threads" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Feature" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +325,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/routes/web.php&#10;threa&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;th&#9;null&#9;null&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/tests/Feature/ReadThreadTest.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;threa&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;th&#9;null&#9;null&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/tests/Feature/ReadThreadTest.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -445,18 +359,18 @@
       <workItem from="1534386986818" duration="6111000" />
       <workItem from="1534587984420" duration="386000" />
       <workItem from="1534593576150" duration="29158000" />
-      <workItem from="1534693250914" duration="1979000" />
+      <workItem from="1534693250914" duration="20115000" />
+      <workItem from="1534777917883" duration="11613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52763000" />
+    <option name="totallyTimeSpent" value="82512000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="772" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="777" height="900" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28082192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2802721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -464,7 +378,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3796856" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22853687" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -533,132 +447,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/TestCase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReplyController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RepliesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="574" column="13" lean-forward="false" selection-start-line="574" selection-start-column="13" selection-end-line="574" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="47" column="23" lean-forward="true" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/BooTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4855">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ReplyTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1000">
-          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/k">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" column="15" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_21_184536_create_channels_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -678,14 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -747,14 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Channel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Filters/Filters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -766,6 +538,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,20 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -797,25 +556,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="32" column="3" lean-forward="false" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Filters/ThreadFilters.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-236">
           <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="27" column="37" lean-forward="false" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -848,24 +592,8 @@
         <state relative-caret-position="414">
           <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
           <folding>
-            <element signature="e#40#57#0#PHP" expanded="true" />
+            <element signature="e#40#57#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Reply.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="65" lean-forward="false" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,37 +605,248 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+    <entry file="file://$PROJECT_DIR$/app/Favoritable.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="-156">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
+    <entry file="file://$PROJECT_DIR$/storage/framework/views/f5811e8ec298ccf459e1dbae415e3691a367d2f2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ProfileTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1449">
+          <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="23" column="70" lean-forward="false" selection-start-line="23" selection-start-column="70" selection-end-line="23" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="63" lean-forward="false" selection-start-line="4" selection-start-column="63" selection-end-line="4" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_07_19_175457_create_replies_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="27" lean-forward="false" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="88" column="8" lean-forward="false" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="131" column="44" lean-forward="false" selection-start-line="131" selection-start-column="44" selection-end-line="131" selection-end-column="44" />
+        <state relative-caret-position="2737">
+          <caret line="123" column="8" lean-forward="false" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
           <folding>
             <element signature="e#40#70#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/reply.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="345">
+          <caret line="15" column="40" lean-forward="false" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Policies/ThreadPolicy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="8" lean-forward="false" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Channel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Thread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="e#23#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_20_210131_create_activities_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ActivityTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="e#33#50#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/RecordsActivity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Activity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Reply.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProfileControllers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
