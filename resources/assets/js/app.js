@@ -15,7 +15,10 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 import Flash from './components/Flash.vue'
+import Reply from './components/Reply.vue'
+
 Vue.component('flash', Flash);
+Vue.component('reply', Reply);
 
 const app = new Vue({
     el: '#app'

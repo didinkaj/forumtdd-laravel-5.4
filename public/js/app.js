@@ -974,6 +974,8 @@ module.exports = __webpack_require__(47);
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Flash_vue__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_Flash_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__components_Flash_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Reply_vue__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_Reply_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_Reply_vue__);
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -991,7 +993,10 @@ window.Vue = __webpack_require__(35);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+
+
 Vue.component('flash', __WEBPACK_IMPORTED_MODULE_0__components_Flash_vue___default.a);
+Vue.component('reply', __WEBPACK_IMPORTED_MODULE_1__components_Reply_vue___default.a);
 
 var app = new Vue({
   el: '#app'
@@ -43686,6 +43691,89 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(44)
+/* script */
+var __vue_script__ = __webpack_require__(58)
+/* template */
+var __vue_template__ = null
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/components/Reply.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-2d8b1643", Component.options)
+  } else {
+    hotAPI.reload("data-v-2d8b1643", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    props: ['attributes'],
+    data: function data() {
+        return {
+            editing: false,
+            body: this.attributes.body
+        };
+    },
+
+    methods: {
+        update: function update() {
+            axios.patch('/replies/' + this.attributes.id, {
+                body: this.body
+            });
+            this.editing = false;
+            flash('Updated!');
+        }
+    }
+});
 
 /***/ })
 /******/ ]);

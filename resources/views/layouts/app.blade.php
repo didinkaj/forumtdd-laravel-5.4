@@ -16,15 +16,25 @@
     <!--script-->
 
     <style>
-        body{
+        body {
             padding-bottom: 100px
         }
-        .level{
+
+        .level {
             display: flex;
-            align-items:center ;
+            align-items: center;
         }
-        .flex{
+
+        .flex {
             flex: 1;
+        }
+
+        .mr-1 {
+            margin-right: 1em;
+        }
+
+        [v-cloak] {
+            display: none;
         }
     </style>
 </head>
