@@ -15,7 +15,6 @@
 
     <!--script-->
 
-
     <style>
         body{
             padding-bottom: 100px
@@ -34,6 +33,9 @@
     @include('layouts.nav')
 
     @yield('content')
+
+
+    <flash message="{{ session('flash') }}"></flash>
 </div>
 
 <!-- Scripts -->

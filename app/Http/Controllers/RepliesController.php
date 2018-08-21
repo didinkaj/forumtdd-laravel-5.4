@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Reply;
 use Illuminate\Http\Request;
 
 use App\Thread;
@@ -53,7 +54,7 @@ class RepliesController extends Controller
             'user_id' => auth()->id()
         ]);
         
-        return back();
+        return back()->with('flash','Your reply has been left');
         
     }
     
@@ -97,8 +98,10 @@ class RepliesController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Reply $reply)
     {
-        //
+        $this->authorize('update', $reply);
+        $reply->delete();
+        return back();
     }
 }
