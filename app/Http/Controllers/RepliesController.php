@@ -87,9 +87,14 @@ class RepliesController extends Controller
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Reply $reply)
     {
         //
+        $this->authorize('update', $reply);
+        
+        $this->validate(request(), ['body' => 'required']);
+        
+        $reply->update(request(['body']));
     }
     
     /**
@@ -101,7 +106,13 @@ class RepliesController extends Controller
     public function destroy(Reply $reply)
     {
         $this->authorize('update', $reply);
+        
         $reply->delete();
+    
+        if (request()->expectsJson()) {
+            return response(['status' => 'Reply deleted']);
+        }
+        
         return back();
     }
 }
