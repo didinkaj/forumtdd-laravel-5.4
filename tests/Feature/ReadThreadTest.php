@@ -34,29 +34,44 @@ class ReadThreadTest extends TestCase
    
     public function a_user_can_read_single_thread()
     {
-
-
+        
         $this->get($this->thread->path())
             ->assertSee($this->thread->title);
 
     }
-    /** test */
-    public function user_can_read_replies_that_are_associated_with_a_thread()
+//    /** test */
+//    public function user_can_read_replies_that_are_associated_with_a_thread()
+//    {
+//        $reply = factory('App\Reply')
+//            ->create(['thread_id' => $this->thread->id]);
+//
+//        $this->get('/threads/some-channel/'.$this->thread->id)
+//            ->assertSee($reply->body);
+//
+//
+//    }
+    
+    /** @test */
+    function a_user_can_filter_threads_by_those_that_are_unanswered()
     {
-        $reply = factory('App\Reply')
-            ->create(['thread_id' => $this->thread->id]);
-
-        $this->get('/threads/some-channel/'.$this->thread->id)
-            ->assertSee($reply->body);
-
-
+        $thread = create('App\Thread');
+        
+        create('App\Reply', ['thread_id' => $thread->id]);
+       
+        $response = $this->getJson('threads?unanswered=1')->json();
+        
+        $this->assertCount(1, $response);
     }
+    
     /** @test */
     function a_user_can_filter_threads_by_any_username()
     {
         $this->signIn(create('App\User', ['name' => 'JohnDoe']));
+       
         $threadByJohn = create('App\Thread', ['user_id' => auth()->id()]);
+       
         $threadNotByJohn = create('App\Thread');
+        
         $this->get('threads?by=JohnDoe')
             ->assertSee($threadByJohn->title)
             ->assertDontSee($threadNotByJohn->title);
