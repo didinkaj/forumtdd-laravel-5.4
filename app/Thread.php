@@ -17,13 +17,14 @@ class Thread extends Model
     {
         parent::boot();
         
-        static::addGlobalScope('replyCount',function ($builder){
-            $builder->withCount('replies');
-        });
-        
-        static::deleting(function ($thread){
+//        static::addGlobalScope('replyCount',function ($builder){
+//            $builder->withCount('replies');
+//        });
+//
+        static::deleting(function ($thread)
+        {
             $thread->replies->each->delete();
-            });
+        });
         
     }
     
@@ -40,11 +41,13 @@ class Thread extends Model
         return $this->replies()->count();
     }
 
-    public function creator(){
+    public function creator()
+    {
         return $this->belongsTo(User::class,'user_id');
     }
 
-    public function addReply($reply){
+    public function addReply($reply)
+    {
         return $this->replies()->create($reply);
     }
 
