@@ -2,13 +2,13 @@
 
 namespace Tests\Feature;
 
-use App\Spam;
+use App\Inspections\Spam;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 
-class SpanTest extends TestCase
+class SpamTest extends TestCase
 {
     /**
      * A basic test example.
@@ -22,6 +22,19 @@ class SpanTest extends TestCase
         
         $this->assertFalse($spam->detect('inoccent reply here'));
         
-        $this->assertTrue(true);
+        $this->expectException('Exception');
+    
+        $spam->detect('yahoo customer support');
+    }
+    
+    /** @test */
+    public function it_checks_for_any_key_being_held_down()
+    {
+        $spam = new Spam();
+    
+        $this->expectException('Exception');
+    
+        $spam->detect('Hellow World aaaaaa');
+    
     }
 }
