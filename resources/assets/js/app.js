@@ -17,10 +17,12 @@ window.Vue = require('vue');
 import Flash from './components/Flash.vue'
 import Thread from './components/pages/Thread.vue'
 import Paginator from './components/pages/Paginator.vue'
+import UserNotifications from './components/UserNotifications.vue'
 
 Vue.component('flash', Flash);
 Vue.component('thread-view', Thread);
 Vue.component('paginator', Paginator);
+Vue.component('user-notifications', UserNotifications);
 
 const app = new Vue({
     el: '#app'

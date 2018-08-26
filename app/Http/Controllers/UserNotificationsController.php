@@ -85,7 +85,7 @@ class UserNotificationsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(User $user, $notificationId)
+    public function destroy($user, $notificationId)
     {
         //
         auth()->user()->notifications()->findOrFail($notificationId)->markAsRead();
