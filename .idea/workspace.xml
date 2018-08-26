@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb811ba-23eb-4bd9-a417-d4b1520890df" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/assets/js/components/SubscribeButton.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/forumtdd54.iml" afterPath="$PROJECT_DIR$/.idea/forumtdd54.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Thread.php" afterPath="$PROJECT_DIR$/app/Thread.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php" afterPath="$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue" afterPath="$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php" afterPath="$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" afterPath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,31 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Reply.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Reply.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Thread.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Thread.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-279">
-              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="322">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubscribeToThreadTest.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubscribeToThreadTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            <state relative-caret-position="386">
+              <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
               <folding>
                 <element signature="e#33#52#0#PHP" expanded="true" />
               </folding>
@@ -46,23 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadSubscriptionController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php">
+      <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-              <folding>
-                <element signature="e#40#55#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="329">
+              <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <file leaf-file-name="SubscribeButton.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/SubscribeButton.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="54" />
+            <state relative-caret-position="431">
+              <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,19 +69,21 @@
       <file leaf-file-name="2018_08_23_170547_create_thread_subscriptions_table.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+            <state relative-caret-position="414">
+              <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ParticipateInForumTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
+      <file leaf-file-name="Thread.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="161">
+              <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+              <folding>
+                <element signature="e#9#46#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,28 +91,40 @@
       <file leaf-file-name="ThreadTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-63">
-              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            <state relative-caret-position="590">
+              <caret line="106" column="74" lean-forward="false" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="74" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadSubscription.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/ThreadSubscription.php">
+      <file leaf-file-name="ThreadsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="273">
+              <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReadThreadTest.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadTest.php">
+      <file leaf-file-name="ThreadSubscriptionController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
+            <state relative-caret-position="421">
+              <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="e#40#55#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -138,8 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Policies/ThreadPolicy.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_08_20_210131_create_activities_table.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_thread.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/activities/activity.blade.php" />
@@ -161,12 +171,10 @@
         <option value="$PROJECT_DIR$/app/Favoritable.php" />
         <option value="$PROJECT_DIR$/resources/views/profiles/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/threads/reply.blade.php" />
-        <option value="$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/assets/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/resources/assets/js/app.js" />
         <option value="$PROJECT_DIR$/resources/assets/js/components/Paginator.vue" />
@@ -182,13 +190,17 @@
         <option value="$PROJECT_DIR$/app/Filters/ThreadFilters.php" />
         <option value="$PROJECT_DIR$/app/Reply.php" />
         <option value="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php" />
         <option value="$PROJECT_DIR$/app/ThreadSubscription.php" />
+        <option value="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue" />
+        <option value="$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ThreadTest.php" />
         <option value="$PROJECT_DIR$/app/Thread.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php" />
+        <option value="$PROJECT_DIR$/resources/views/threads/show.blade.php" />
         <option value="$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php" />
+        <option value="$PROJECT_DIR$/resources/assets/js/components/SubscribeButton.vue" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -210,11 +222,13 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="823" />
+    <option name="width" value="689" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -232,7 +246,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,10 +400,17 @@
               <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Unit" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="forumtdd-laravel-5.4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="forumtdd-laravel-5.4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="tests" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="utilities" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -398,7 +418,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v10.8.0/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;th&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Thread.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;thread&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/ThreadsController.php&#10;web&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;repl&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;RepliesController&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;threa&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;trustedpr&#9;null&#9;null&#10;we&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;th&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Thread.php&#10;re&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;thread&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/ThreadsController.php&#10;web&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/routes/web.php&#10;repl&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;RepliesController&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd-laravel-5.4/app/Http/Controllers/RepliesController.php&#10;threa&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;t&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;chan&#9;null&#9;null&#10;lay&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/vendor/laravel/framework/src/Illuminate/Mail/resources/views/markdown/layout.blade.php&#10;thre&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php&#10;appser&#9;null&#9;null&#10;thread/cr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/resources/views/threads/create.blade.php&#10;thr&#9;FILE&#9;file:///Users/jdidinya/code/forumtdd54/app/Http/Controllers/ThreadsController.php" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
@@ -446,28 +466,30 @@
       <workItem from="1534777917883" duration="39694000" />
       <workItem from="1534940048556" duration="779000" />
       <workItem from="1534950876661" duration="2132000" />
-      <workItem from="1535015926896" duration="27898000" />
+      <workItem from="1535015926896" duration="29710000" />
+      <workItem from="1535199868982" duration="410000" />
+      <workItem from="1535201429541" duration="8841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141402000" />
+    <option name="totallyTimeSpent" value="152465000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="770" height="900" extended-state="6" />
+    <frame x="0" y="0" width="689" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26648352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24884081" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25272068" sideWeight="0.50476193" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32527205" sideWeight="0.4952381" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20798065" sideWeight="0.4952381" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -534,28 +556,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/profiles/activities/created_reply.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ActivityTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="50" column="8" lean-forward="false" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
-          <folding>
-            <element signature="e#33#50#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Activity.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="473">
           <caret line="23" column="44" lean-forward="true" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,9 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-          <folding>
-            <element signature="e#40#57#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="107" column="33" lean-forward="true" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
-          <folding>
-            <element signature="e#33#50#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -627,9 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#32#46#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -645,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -653,7 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -661,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -669,7 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="42" column="9" lean-forward="false" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -685,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -693,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2028">
           <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,11 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <marker date="1535020834840" expanded="true" signature="498:641" ph="..." />
-            <marker date="1535020834840" expanded="true" signature="511:639" ph="..." />
-            <marker date="1535020834840" expanded="true" signature="512:638" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,23 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -745,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
           <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -753,7 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
           <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -761,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="68" column="35" lean-forward="false" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,9 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="e#501#543#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,23 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="85" column="36" lean-forward="false" selection-start-line="85" selection-start-column="36" selection-end-line="85" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,9 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-          <folding>
-            <element signature="e#214#221#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -829,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -837,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#1382#1420#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding>
-            <element signature="e#316#347#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="31" column="87" lean-forward="false" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -865,21 +791,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="33" column="22" lean-forward="false" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Reply.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="25" column="54" lean-forward="true" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
-          <folding />
+          <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ReadThreadTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="1357">
           <caret line="62" column="8" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding />
         </state>
@@ -887,17 +811,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        <state relative-caret-position="874">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php">
+    <entry file="file://$PROJECT_DIR$/tests/Feature/SubscriToThreadTest.php" />
+    <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="575">
+          <caret line="26" column="37" lean-forward="false" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+          <folding>
+            <marker date="1535221845698" expanded="true" signature="463:501" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -909,55 +836,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        <state relative-caret-position="368">
+          <caret line="27" column="2" lean-forward="false" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+          <folding>
+            <element signature="e#283#358#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2018_08_23_170547_create_thread_subscriptions_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="20" column="48" lean-forward="false" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/SubscriToThreadTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="76" column="6" lean-forward="true" selection-start-line="76" selection-start-column="6" selection-end-line="76" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/pages/Thread.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#9#46#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Thread.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-279">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="322">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/threads/show.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="35" column="54" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="54" />
+        <state relative-caret-position="329">
+          <caret line="51" column="22" lean-forward="true" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ThreadTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="106" column="74" lean-forward="false" selection-start-line="106" selection-start-column="20" selection-end-line="106" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ThreadSubscriptionController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="35" column="40" lean-forward="false" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
+        <state relative-caret-position="421">
+          <caret line="84" column="31" lean-forward="false" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
           <folding>
             <element signature="e#40#55#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/SubscribeToThreadTest.php">
+    <entry file="file://$PROJECT_DIR$/resources/assets/js/components/SubscribeButton.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="32" column="40" lean-forward="false" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
-          <folding>
-            <element signature="e#33#52#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="431">
+          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="36" column="78" lean-forward="false" selection-start-line="36" selection-start-column="78" selection-end-line="36" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
